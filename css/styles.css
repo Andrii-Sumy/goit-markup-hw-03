@@ -2,6 +2,8 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+  font-style: normal;
+  font-optical-sizing: auto;
 }
 
 ul {
@@ -16,6 +18,24 @@ a {
   background: #2e2f42;
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+    align-items: center;
+  }
+  .header-menu-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .contacts-list {
+    display: flex;
+      align-items: center;
+      gap: 40px;
+  }
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -44,6 +64,7 @@ a {
 }
 
 .logo-text {
+  margin-right: 76px;
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
 }
@@ -218,4 +239,8 @@ a {
 
 .team-list {
   background-color: #ffffff;
+}
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
